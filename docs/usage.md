@@ -14,7 +14,7 @@ The minimal, but powerful API of this module provides functionality for the most
 Users may need to choose the time zone, which they want to see and enter dates in. Time zones can be listed in a dropdown for the user to choose from, for example.
 
 ```js
-const { listTimeZones } = require('timezone-support')
+const { listTimeZones } = require('@pmjonesg/timezone-support')
 const timeZones = listTimeZones()
 ```
 
@@ -83,4 +83,4 @@ const defaultDate = convertToTimeZone(storedDate, { timeZone })
 
 See functions [convertToLocalTime](./API.md#converttolocaltime) and [convertToTimeZone](./API.md#converttotimezone) for more information.
 
-[listTimeZones]: https://github.com/prantlf/timezone-support/blob/master/docs/API.md#listtimezones
+[listTimeZones]: https://github.com/prantlf/@pmjonesg/timezone-support/blob/master/docs/API.md#listtimezones

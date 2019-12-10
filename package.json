@@ -1,6 +1,6 @@
 {
-  "name": "date-fns-timezone",
-  "version": "0.0.0-development",
+  "name": "@pmjonesg/date-fns-timezone",
+  "version": "0.0.1",
   "description": "Parsing and formatting date strings using IANA time zones for date-fns.",
   "author": {
     "name": "Ferdinand Prantl",
@@ -11,16 +11,16 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/prantlf/timezone-support/blob/master/LICENSE"
+      "url": "https://github.com/pmjonesg/timezone-support/blob/master/LICENSE"
     }
   ],
-  "homepage": "https://github.com/prantlf/date-fns-timezone#readme",
+  "homepage": "https://github.com/pmjonesg/date-fns-timezone#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prantlf/date-fns-timezone.git"
+    "url": "https://github.com/pmjonesg/date-fns-timezone.git"
   },
   "bugs": {
-    "url": "https://github.com/prantlf/date-fns-timezone/issues"
+    "url": "https://github.com/pmjonesg/date-fns-timezone/issues"
   },
   "engines": {
     "node": ">=6"
@@ -77,7 +77,7 @@
   },
   "dependencies": {
     "date-fns": "^1.29.0",
-    "timezone-support": "^1.5.5"
+    "@pmjonesg/timezone-support": "^0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

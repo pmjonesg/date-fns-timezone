@@ -7,7 +7,7 @@
 [![devDependency Status](https://david-dm.org/prantlf/date-fns-timezone/dev-status.svg)](https://david-dm.org/prantlf/date-fns-timezone#info=devDependencies)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-Provides parsing and formatting date strings and time zone conversions supporting [IANA time zones], following the design of functions in [date-fns]. List of canonical time zone names is provided by [timezone-support].
+Provides parsing and formatting date strings and time zone conversions supporting [IANA time zones], following the design of functions in [date-fns]. List of canonical time zone names is provided by [@pmjonesg/timezone-support].
 
 ### Table of Contents
 
@@ -22,7 +22,7 @@ Provides parsing and formatting date strings and time zone conversions supportin
 ## Synopsis
 
 ```js
-const { listTimeZones } = require('timezone-support')
+const { listTimeZones } = require('@pmjonesg/timezone-support')
 const { parseFromTimeZone, formatToTimeZone } = require('date-fns-timezone')
 
 // List canonical time zone names: [ 'Africa/Abidjan', ... ]
@@ -76,7 +76,7 @@ Licensed under the MIT license.
 
 [IANA time zones]: https://www.iana.org/time-zones
 [date-fns]: https://github.com/date-fns/date-fns
-[timezone-support]: https://github.com/prantlf/timezone-support
+[@pmjonesg/timezone-support]: https://github.com/prantlf/@pmjonesg/timezone-support
 [Node.js]: http://nodejs.org/
 [NPM]: https://www.npmjs.com/
 [Yarn]: https://yarnpkg.com/

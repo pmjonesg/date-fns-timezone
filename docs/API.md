@@ -55,7 +55,7 @@ Load the main module in the browser with plain JavaScript:
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"></script>
-<script src="./node_modules/timezone-support/dist/index.umd.js"></script>
+<script src="./node_modules/@pmjonesg/timezone-support/dist/index.umd.js"></script>
 <script src="./node_modules/date-fns-timezone/dist/index.umd.js"></script>
 <script>
   (() => {
@@ -71,7 +71,7 @@ Load the main module in the browser with [RequireJS]:
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js"></script>
-<script src="https://unpkg.com/timezone-support@1.5.5/dist/index.umd.js"></script>
+<script src="https://unpkg.com/@pmjonesg/timezone-support@1.5.5/dist/index.umd.js"></script>
 <script src="https://unpkg.com/date-fns-timezone@0.1.4/dist/index.umd.js"></script>
 <script>
   require(['date-fns-timezone'], ({ parseFromTimeZone, formatToTimeZone }) => {
@@ -93,7 +93,7 @@ Main package module for Node.js application. CommonJS format. Includes all funct
 
 ### index.umd.js
 
-Main package module first of all for web browsers. UMD format, minified. Includes all functions from the other modules. Make sure, that you include `script` elements for `date-fns` and `timezone-support` on your web page before this one [as documented earlier](#loading).
+Main package module first of all for web browsers. UMD format, minified. Includes all functions from the other modules. Make sure, that you include `script` elements for `date-fns` and `@pmjonesg/timezone-support` on your web page before this one [as documented earlier](#loading).
 
 ## Functions
 
